@@ -17,7 +17,6 @@ public class Main {
 
         tree.traverseInOrderDescending();
         System.out.println();
-
         System.out.println("Min " + tree.getMin(root));
         System.out.println("Max " + tree.getMax(root));
     }
